@@ -1,0 +1,56 @@
+.parent{
+    
+    -fx-background-color: #ffffff;}
+    .table-view:row-selection .table-row-cell:filled:hover {
+    -fx-background-color: #FFE3C1;
+    -fx-background-insets: 0.0, 0.0 0.0 0.0 0.0;
+    -fx-text-fill: -fx-text-inner-color;
+}
+.table-view *.scroll-bar:horizontal *.increment-button,
+.table-view *.scroll-bar:horizontal *.decrement-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0.0;
+    -fx-background-insets: 0.0;
+    -fx-padding: 0.0;
+}
+    
+
+.table-view .column-header-background{
+-fx-background-color: #2ecc71;
+-fx-background-insets: 0 0 10 0 ;
+-fx-padding: 0 0 10 0;
+}
+
+
+.table-view:focused .table-row-cell:filled:selected {
+    -fx-background-color:  #2ecc71;
+    -fx-background-insets: 0.0, 0.0 0.0 0.0 0.0;
+    -fx-text-fill: -fx-selection-bar-text;
+    -fx-table-cell-border-color: #E0F2FF;
+}
+    
+
+.sidebar{
+    -fx-background-color: #333645;
+}
+ 
+.btns{
+    -fx-background-color: transparent;
+}
+.btns:hover{
+    -fx-background-color: #202332;
+}
+
+.box{
+    
+    -fx-border-color:#7C8184;
+    -fx-border-width:1px 0px 0px 0px;
+}
+ 
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+ 
